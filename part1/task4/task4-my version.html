@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task4</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.outer{
+			position: absolute;
+			margin: auto;
+			top: 0;
+	        left: 0;
+	        right: 0;
+	        bottom: 0;
+			width: 400px;
+			height: 200px;
+			background-color: #ccc;
+		}
+		.radius-top{
+			position: relative;
+			top: 0px;
+			left: 0px;
+			width: 50px;
+			height: 50px;
+			margin-left: 0px;
+			border-radius: 0 0 50px 0px;
+			background-color: yellow;
+		}
+		.radius-bottom{
+			position: relative;
+/*			top: 100px;
+			left: 350px;*/
+			right: -350px;
+			bottom: -100px;
+			width: 50px;
+			height: 50px;
+			margin: 0px;
+			border-radius: 50px 0 0 0;
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body style="background: white">
+	<div class="outer">
+		<div class="radius-top"></div>
+		<div class="radius-bottom"></div>
+	</div>
+</body>
+</html>

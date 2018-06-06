@@ -1,0 +1,259 @@
+ul{
+	list-style-type: none;
+}
+.wrapper{
+	font-family: "微软雅黑";
+	/*text-align: center;*/
+	/*border:solid;*/
+	width: 800px;
+	background: #eee;
+	height: 100%;
+	margin: 0 auto;
+}
+.header{
+	/*position: fixed;*/
+	height: 70px;
+	width: 100%;
+	background: #91D4DA;
+}
+.header span{
+	float: left;
+	font-size:30px;
+	color: #fff;
+	margin-top:12px;
+/*	margin-top:35px;
+	color: #fff;
+	font-size:30px;
+	
+	font-weight: 500;*/
+}
+.header h1{
+	/*display: inline-block;*/
+	color: #fff;
+	font-size:30px;
+	line-height:-35px;
+	/*border:solid;*/
+	text-align: center;
+	/*margin-top: 12px;*/
+}
+.navigator{
+	/*width: 60%;*/
+	background: #fff;
+	color: 	#505050;
+	display: flex;
+	justify-content: space-around;
+	font-size: 30px;
+	font-weight: 900px;
+	/*border:solid;*/
+	margin: 0 auto;
+}
+.navigator span{
+	flex: 1;
+	/*border:solid;*/
+	text-align: center;
+	padding: 20px;
+	border:5px solid #fff;
+}
+.navigator span:hover{
+	border-bottom: 5px solid #91D4DA;
+}
+#bear{
+	display:block;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	/*border:solid;*/
+	text-align: center;
+}
+.tag{
+	/*border:solid;*/
+	overflow: hidden;
+	background: #fff;
+	/*width: 56%;*/
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.tag ul{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px 0;
+	border-bottom:3px solid #eee;
+	/*border:solid;*/
+}
+.tag li{
+	display: inline-block;
+	margin:0 30px 30px 30px;
+	font-weight: 560;
+	font-size: 20px;
+	text-align: center;
+	/*border:solid;*/
+}
+.tag img{
+	width: 70px;
+	height: 70px;
+}
+.tag span{
+	display: inline-block;
+	margin-top:5px;
+}
+.col{
+	display: flex;
+	justify-content: space-around;
+	background: #fff;
+}
+.col img{
+	width: 140px;
+/*	border:solid;*/
+}
+.col1,
+.col2,
+.col3{
+	text-align: center;
+	flex: 1;
+	/*border:solid;*/
+}
+.col1,
+.col2{
+	border-right: 3px solid #eee;
+}
+.module{
+	margin-top: 50px;
+	/*margin-bottom: 20px;*/
+	width: 100%;
+	/*border: solid;*/
+	background: #fff;
+}
+.module-header {
+	margin-bottom: 30px;
+}
+.module-header h1{
+	/*border:solid;*/
+	color:#585858;
+	width: 90%;
+	margin: 8px auto;
+	padding: 10px 0;
+	border-bottom: 4px solid #eee;;
+	font-size: 2.5rem;
+}
+.module-middle{
+	width: 90%;
+	height: 180px;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.module-middle-pic{
+	flex: 1;
+	/*border:solid;*/
+}
+.module-middle-pic img{
+	border:2px solid #FF9933;
+	width: 180px;
+}  
+
+.module-middle-content{
+	text-align: center;
+	/*border:solid;*/
+	padding: 0;
+	margin-left: 20px;
+	width: 75%;
+	flex: 2.6;
+}
+
+.module-middle-content ul{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	/*border:solid;*/
+}
+.module-middle-content li{
+	display: inline-block;
+	width: 48.5%;
+	height: 82px;
+	margin: 10px 10px 0 0;
+	background: #F8F8F8;
+	font-size: 25px;
+	line-height: 70px;
+	/*border:solid;*/
+}
+/*.module-middle-content span{
+	border:solid;
+	width: 275px;
+	height: 84px;
+	margin: 20px 20px 0 0;
+	background: #F8F8F8;
+	text-align: center;
+	font-size: 28px;
+	line-height: 70px;
+}*/
+
+.module-middle-content li:first-child{
+	margin-top:0;
+}
+.module-middle-content li:nth-child(2){
+	margin-top:0;
+	margin-right: 0;
+}
+.module-middle-content li:nth-child(3){
+	margin-right: 10px;
+}
+.module-middle-content li:last-child{
+	margin-right: 0;
+}
+.article{
+	position: relative;
+	padding: 30px;
+	margin-top: 40px;
+	background: #fff;
+	border-bottom: 3px solid #eee;
+	/*border:solid;*/
+}
+.article img{
+	width: 300px;
+}
+.article h1,
+.article p{
+	display: inline-block;
+	/*border:solid;*/
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.article h1{
+	width: 400px;
+	margin: 0;
+	font-weight: 400;
+	margin-left: 30px;
+	margin-top: 0;
+	vertical-align: top;
+}
+.article p{
+	position: absolute;
+	top: 185px;
+	left: 365px;
+	color: 	#D0D0D0;
+	font-weight: 500;
+	font-size: 25px;
+}
+#unique{
+	margin-top: 0;
+}
+.article2{
+	position: relative;
+	padding: 30px 0 0 30px;
+	background: #fff;
+}
+.article2 img{
+	width: 250px;
+}
+.article2 h1{
+	margin: 10px 0 10px 0;
+	font-weight: 400;
+	margin-top: 0;
+	vertical-align: top;
+}
+.article2 p{
+	color: 	#D0D0D0;
+	font-weight: 500;
+	font-size: 25px;
+}

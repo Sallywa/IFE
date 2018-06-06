@@ -1,0 +1,207 @@
+body{
+	background-color: #eee;
+}
+.container{
+	background-color: #fff;
+	width: 892px;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.baiduurl{
+	width: 100px;
+	height: 50px;
+	background:#db3e75;
+}
+.underline{
+	border: 2px solid grey;
+	background: grey;
+	width: 100%;
+	margin-top: 0px;
+}
+.date{
+	position: absolute;
+	font-family: "ºÚÌå";
+	top: 30px;
+	right: 230px;
+	color: #d45d5c;
+}
+.upper{
+	margin:30px 30px 30px 0;
+	position: relative;
+}
+.upper img{
+	width:600px;
+	height:300px;
+}
+.cover1{
+	position: relative;
+	opacity: 0.5;
+	top: -305px;
+	width: 150px;
+	height: 300px;
+	background-color: #72A664;
+}
+.cover2{
+	position: relative;
+	right: -450px;
+	top: -604px;
+	opacity: 0.5; 
+	width: 150px;
+	height: 300px;
+	background-color: #E1ABC3;
+}
+
+.what{
+	position: absolute;
+	top: 300px;
+	width: 230px;
+}
+.what h2{
+	text-decoration: underline;
+	color: #cc7680;
+	font-size: 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+.when{
+	position: absolute;
+	top: 300px; 
+	left: 250px;
+	width: 200px;
+}
+.when h2{
+	color: #418c59;
+	font-size: 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	text-decoration: underline;
+}
+.how{
+	position: absolute;
+	top: 295px;
+	left: 470px;
+	width: 110px;
+}
+.how h2{
+	text-decoration: underline;
+	color: #d2994f;
+	font-size: 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+.what, .when, .how >p{
+	display: inline;
+	font-size: 10px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	line-height: 16px
+}
+.how span{
+	color: coral;
+}
+.upper3{
+	position: absolute;
+	width: 250px;
+	/*border: solid grey;*/
+	height: 300px;
+	top: 0;
+	right: -30px;
+}
+.topline{
+	border: 2px solid #cc8091;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.upper3 h2{
+	text-decoration: underline;
+	color:#000000;
+	margin: 0;
+}
+.upper3 h3{
+	font-weight: 100;
+	color: grey;
+	margin:0;
+}
+.num-seven{
+	position: relative;
+	top: -120px;
+	color: #75b86b;
+	font-size: 140px;
+	font-family: 'Microsoft YaHei';
+}
+.num-32{
+	color: #cc8091;
+	position: relative;
+	font-size: 60px;
+	top: -300px;
+	left: 30px;
+	font-family: 'Microsoft YaHei';
+}
+.css1{
+	color: #cc8091;
+	position: relative;
+	font-size: 30px;
+	top: -430px;
+	left: 120px;
+	font-family: 'Microsoft YaHei';
+}
+.css2{
+	color: #cc8091;
+	position: relative;
+	font-size: 20px;
+	top: -465px;
+	left: 125px;
+	font-family: 'Microsoft YaHei';
+}
+.lower{
+	margin:30px 30px 30px 0;
+	height: 500px;
+	position: relative;
+}
+.lower1{
+	position: absolute;
+	top: -410px;
+	width: 390px;
+}
+.lower1 h1{
+	position: absolute;
+	top: -60px;
+	color: #FFCC33;
+	font-size: 70px;
+}
+#first{
+	position: absolute;
+	top: 30px;
+	color: #11456b;
+	font-size: 40px;
+	font-family: "ºÚÌå";
+}
+#second{
+	position: absolute;
+	top: 75px;
+	color: #11456b;
+	font-size: 40px;
+	font-family: "ºÚÌå";
+}
+.lower1 h2{
+	font-size: 40px;
+	position: absolute;
+	top: 120px;
+	color: #11456b;
+	font-family: "ºÚÌå";
+}
+.lower1 img{
+	float: right;
+	margin-bottom:6px;
+}
+.lower2{
+	position: absolute;
+	top: -400px;
+	right: -30px;
+}
+.lower3{
+	position: absolute;
+	background-color:#eeeed6;
+	top: -100px;
+	right: -20px;
+	height: 300px;
+	width: 450px;
+}

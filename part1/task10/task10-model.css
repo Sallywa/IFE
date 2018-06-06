@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-flex-flow: row wrap; /*flex-wrap属性定义，如果一条轴线排不下，如何换行。*/
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    -webkit-align-items: center; /*对齐方法*/
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    box-sizing: border-box;
+    width: 150px;
+    padding: 18px;
+    margin: 20px 0;
+}
+
+.box1,
+.box2,
+.box3 {
+    border: 1px solid #f00;
+}
+.box4 {
+    border: 1px solid #0f0;
+}
+.box1 {
+    height: 120px;
+}
+
+.box2 {
+    height: 100px;
+}
+
+.box3 {
+    height: 40px;
+}
+
+.box4 {
+    height: 200px;
+}
+
+@media screen and (max-width:640px) {
+    .box {
+        -webkit-align-items: flex-start;/*顶端对齐*/
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+    }
+    /*order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。*/
+    .box1,
+    .box2,
+    .box3 {
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .box4 {
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}
